@@ -17,14 +17,14 @@ gulp.task('default', function() {
 
 ## options.choices
 
-If you need to be able to automatically skip the prompt, you can pass a string or array with your "choices" to `options.choices`.
+If you need to be able to automatically skip the prompt, you can pass a string with your "choice" to `options.choices`.
 
 The following will only write `a.txt`:
 
 ```js
 gulp.task('default', function() {
   return gulp.src('fixtures/*.txt')
-    .pipe(choose({choices: ['a.txt']}))
+    .pipe(choose({choices: 'a.txt'}))
     .pipe(gulp.dest('actual'));
 });
 ```

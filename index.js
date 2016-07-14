@@ -25,7 +25,6 @@ module.exports = function(options) {
     var stream = this;
 
     if (typeof opts.choices === 'string') {
-      //opts.choices = [opts.choices];
       stream.push(files[opts.choices]);
       next();
       return;
