@@ -1,0 +1,71 @@
+{
+  "name": "gulp-choose-file",
+  "description": "Gulp plugin that prompts you to choose a file to pass through the stream.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pointnet/gulp-choose-file",
+  "author": "Aurelien Verla (https://github.com/pointnet)",
+  "repository": "pointnet/gulp-choose-file",
+  "bugs": {
+    "url": "https://github.com/pointnet/gulp-choose-file/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "question-cache": "^0.4.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "assemble": "^0.14.0",
+    "engine-handlebars": "^0.8.0",
+    "gulp": "^3.9.1",
+    "gulp-format-md": "^0.1.9"
+  },
+  "keywords": [
+    "ask",
+    "choose",
+    "conditional",
+    "file",
+    "fs",
+    "gulp",
+    "gulpplugin",
+    "pick",
+    "prompt",
+    "question",
+    "render",
+    "write"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "gulp-choose-files"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "verb-readme-generator"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
