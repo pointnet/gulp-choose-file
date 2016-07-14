@@ -49,14 +49,6 @@ To generate the readme and API documentation with [verb](https://github.com/verb
 $ npm install -g verb verb-generate-readme && verb
 ```
 
-### Running tests
-
-Install dev dependencies:
-
-```sh
-$ npm install -d && npm test
-```
-
 ### License
 
 Copyright © 2016, [Aurelien Verla](https://github.com/pointnet).
