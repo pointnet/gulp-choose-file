@@ -1,7 +1,7 @@
 {
   "name": "gulp-choose-file",
   "description": "Gulp plugin that prompts you to choose a file to pass through the stream.",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "homepage": "https://github.com/pointnet/gulp-choose-file",
   "author": "Aurelien Verla (https://github.com/pointnet)",
   "repository": "pointnet/gulp-choose-file",
